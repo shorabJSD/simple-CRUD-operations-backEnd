@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(43, 36, 36);
+    display: flex;
+    align-items: center;
+}
+.small_con{
+    width: 15vw;
+    height: 25vw;
+    background-color: blue;
+    margin:auto;
+    position: relative;
+}
+
+.small_con img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.small_con .layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #3a6186;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #161616, #0000009d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    top: 0;
+    left: 0;
+}
