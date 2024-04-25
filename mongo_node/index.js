@@ -10,10 +10,11 @@ app.use(express.json());
 //password:sumiakka5577
 const PORT = 7000;
 
-
+//add router;
 app.use("/api/products", productsRouter)
  
-//created / router;
+
+
 app.get("/", (req, res)=>{
   res.send("Hello i am sourov akka from Node js");
 });
